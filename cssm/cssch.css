@@ -1,0 +1,115 @@
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
+	* {
+		margin: 0;
+		padding: 0;
+		font: inherit;
+	}
+
+	body {
+		line-height: 1.5;
+	}
+
+	img,
+	picture,
+	video,
+	canvas,
+	svg {
+		display: block;
+		max-width: 100%;
+	}
+
+	input,
+	button,
+	textarea,
+	select {
+		outline: none;
+	}
+
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		overflow-wrap: break-word;
+	}
+
+	.header,
+	.wrapper {
+		width: 100% !important;
+	}
+}
+
+.bg__menu {
+	background: #ffbe30 !important;
+}
+
+.bg__menu .navbar-nav {
+	background-color: #ffbe30 !important;
+
+}
+
+.bg__menu a {
+	color: #fff;
+}
+
+.navbar__brand img {
+	width: 50px;
+}
+
+.dropdown__item {
+	color: #000 !important;
+}
+
+.nav__item {
+	margin: 0px 10px;
+}
+
+
+.span__main {
+	display: flex;
+}
+
+.span__main span {
+	border: 1px solid #8888884a;
+	padding: 5px 10px;
+	cursor: pointer;
+	margin: 0 5px;
+	font-size: 12px;
+	display: block;
+	width: 40px;
+}
+
+.wrraper .content .slide_detail_product_mobile .info_product div {
+
+	display: flex;
+
+	width: 100%;
+
+}
+
+.slider_detail .thumb_slide {
+	display: flex;
+	width: 5%;
+	flex-direction: column;
+	margin-right: 0.5em;
+	overflow-x: scroll;
+	height: 100%;
+}
+
+.image__item {
+	display: none;
+}
+
+.image__item.active {
+	display: unset;
+}
